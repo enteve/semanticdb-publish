@@ -1,0 +1,39 @@
+{
+  "name": "semanticdb",
+  "version": "0.1.0",
+  "description": "A database which has the common knowledge",
+  "main": "semanticdb.min.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enteve/semanticdb-public.git"
+  },
+  "keywords": [
+    "senmantic;database"
+  ],
+  "author": "XiChi Zhu",
+  "bugs": {
+    "url": "https://github.com/enteve/semanticdb-public/issues"
+  },
+  "homepage": "https://github.com/enteve/semanticdb-public#readme",
+  "esm": {
+    "mode": "all",
+    "cjs": true
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.6",
+    "mysql": "^2.18.1",
+    "numeral": "^2.0.6",
+    "nzh": "^1.0.4",
+    "promise-mysql": "^4.1.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "semanticdb-common-lib": "^1.0.1",
+    "underscore": "^1.10.2",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
