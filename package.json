@@ -24,6 +24,7 @@
     "moment": "^2.24.0",
     "mongodb": "^3.5.6",
     "mysql": "^2.18.1",
+    "node-machine-id": "^1.1.12",
     "numeral": "^2.0.6",
     "nzh": "^1.0.4",
     "promise-mysql": "^4.1.3",
