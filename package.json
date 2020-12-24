@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -21,6 +21,10 @@
     "cjs": true
   },
   "dependencies": {
+    "await-exec": "^0.1.2",
+    "clickhouse": "^2.2.1",
+    "json-stable-stringify": "^1.0.1",
+    "json2csv": "^5.0.5",
     "moment": "^2.24.0",
     "mongodb": "^3.5.6",
     "mysql": "^2.18.1",
@@ -31,8 +35,7 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "semanticdb-common-lib": "^1.0.1",
-    "underscore": "^1.10.2",
-    "xlsx": "^0.15.6"
+    "underscore": "^1.10.2"
   },
   "devDependencies": {
     "esm": "^3.2.25"
