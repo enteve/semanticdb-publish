@@ -1,30 +1,21 @@
 {
   "name": "semanticdb",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A database which has the common knowledge",
-  "main": "dist/semanticdb.js",
-  "scripts": {
-    "pretest": "npm run build",
-    "build": "rollup -c;javascript-obfuscator dist/semanticdb.js --output dist/semanticdb.min.js --compact true --self-defending true --string-array true --string-array-encoding true --reserved-names self",
-    "test": "tape -r esm 'test/semantic-db/*.js' | tap-spec",
-    "testPressure": "tape -r esm 'test/pressure-test/*.js' | tap-spec",
-    "testTMP": "tape -r esm 'test/semantic-db/17-listener-in-property.js' | tap-spec",
-    "testLF2SQL": "tape -r esm 'test/semantic-db/db-connectors/logicformToClickhouseSQL.js' | tap-spec",
-    "testCK": "tape -r esm 'test/semantic-db/db-connectors/clickhouse.js' | tap-spec",
-    "lint": "eslint --fix --ext .js src"
-  },
+  "main": "semanticdb.min.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enteve/semanticdb.git"
+    "url": "git+https://github.com/enteve/semanticdb-public.git"
   },
   "keywords": [
     "senmantic;database"
   ],
   "author": "XiChi Zhu",
   "bugs": {
-    "url": "https://github.com/enteve/semanticdb/issues"
+    "url": "https://github.com/enteve/semanticdb-public/issues"
   },
-  "homepage": "https://github.com/enteve/semanticdb#readme",
+  "homepage": "https://github.com/enteve/semanticdb-public#readme",
   "esm": {
     "mode": "all",
     "cjs": true
@@ -48,18 +39,6 @@
     "underscore": "^1.10.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-google": "^0.14.0",
-    "esm": "^3.2.25",
-    "husky": "^4.2.5",
-    "javascript-obfuscator": "^0.28.0",
-    "node-dev": "^4.0.0",
-    "rollup": "^2.7.3",
-    "rollup-plugin-javascript-obfuscator": "^1.0.4",
-    "sleepjs": "^3.0.2",
-    "tap-spec": "^5.0.0",
-    "tape": "^5.0.0",
-    "tape-await": "^0.1.2"
+    "esm": "^3.2.25"
   }
 }
