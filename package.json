@@ -36,7 +36,9 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "semanticdb-common-lib": "^1.0.1",
-    "underscore": "^1.10.2"
+    "sleepjs": "^3.0.2",
+    "underscore": "^1.10.2",
+    "xlsx": "^0.16.9"
   },
   "devDependencies": {
     "esm": "^3.2.25"
