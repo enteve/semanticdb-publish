@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "await-exec": "^0.1.2",
-    "clickhouse": "git://github.com/enteve/clickhouse.git",
+    "clickhouse-query-in-body": "^2.2.2",
     "jimp": "^0.16.1",
     "json-stable-stringify": "^1.0.1",
-    "json2csv": "git://github.com/enteve/json2csv.git",
+    "json2csv-clickhouse": "^5.0.3",
     "moment": "^2.24.0",
     "mongodb": "^3.5.6",
     "mysql": "^2.18.1",
