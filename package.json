@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -24,7 +24,7 @@
     "@agarimo/cartesian": "^1.0.1",
     "await-exec": "^0.1.2",
     "bestzip": "^2.2.0",
-    "clickhouse-query-in-body": "^2.4.5",
+    "clickhouse": "^2.6.0",
     "cls-hooked": "^4.2.2",
     "csv-splitter": "^1.1.0",
     "jimp": "^0.16.1",
