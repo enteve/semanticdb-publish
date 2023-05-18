@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -34,6 +34,7 @@
     "lodash": "^4.17.21",
     "lodash.escaperegexp": "^4.1.2",
     "moment": "^2.24.0",
+    "moment-lunar": "^0.0.4",
     "mongodb": "^4.5.0",
     "mysql": "^2.18.1",
     "nanoid": "^3.1.23",
