@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.1.20",
+  "version": "0.2.0",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -20,6 +20,7 @@
     "mode": "all",
     "cjs": true
   },
+  "types": "semanticdb.d.ts",
   "dependencies": {
     "@agarimo/cartesian": "^1.0.1",
     "await-exec": "^0.1.2",
