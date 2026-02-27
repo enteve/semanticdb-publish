@@ -1,6 +1,6 @@
 {
   "name": "semanticdb",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A database which has the common knowledge",
   "main": "semanticdb.min.js",
   "scripts": {},
@@ -23,11 +23,10 @@
   "types": "semanticdb.d.ts",
   "dependencies": {
     "@agarimo/cartesian": "^1.0.1",
-    "@databricks/sql": "^1.11.0",
+    "@jasonlee7903/clickhouse": "1.0.1",
     "await-exec": "^0.1.2",
     "axios": "^0.24.0",
     "bestzip": "^2.2.0",
-    "@jasonlee7903/clickhouse": "1.0.1",
     "cls-hooked": "^4.2.2",
     "csv-splitter": "^1.1.0",
     "exceljs-yiask": "^4.5.0",
@@ -44,23 +43,39 @@
     "moment": "^2.24.0",
     "moment-lunar": "^0.0.4",
     "mongodb": "^4.5.0",
-    "mysql": "^2.18.1",
-    "mysql-await": "^2.2.3",
-    "mysql2": "^3.14.0",
+    "mysql2": "^3.11.5",
     "nanoid": "^3.1.23",
     "node-machine-id": "^1.1.12",
     "numeral": "^2.0.6",
     "nzh": "^1.0.4",
     "pg": "^8.11.3",
-    "promise-mysql": "^4.1.3",
     "rimraf": "^3.0.2",
     "semanticdb-common-lib": "^1.0.12",
-    "semanticdb-core": "^1.1.10",
+    "semanticdb-core": "^1.1.20",
     "sleepjs": "^3.0.2",
-    "sybase": "^1.2.3",
     "thenby": "^1.3.4",
     "underscore": "^1.13.6",
     "xlsx": "^0.16.9"
+  },
+  "peerDependencies": {
+    "@databricks/sql": "^1.11.0",
+    "mssql": "^12.0.0",
+    "mysql-await": "^2.2.3",
+    "sybase": "^1.2.3"
+  },
+  "peerDependenciesMeta": {
+    "@databricks/sql": {
+      "optional": true
+    },
+    "mssql": {
+      "optional": true
+    },
+    "mysql-await": {
+      "optional": true
+    },
+    "sybase": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "esm": "^3.2.25"
